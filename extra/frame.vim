@@ -12,3 +12,8 @@ vnoremap <leader>Fp    :action TogglePresentationMode<CR>
 let g:WhichKeyDesc_Frame_ToggleDistractionFreeMode = "<leader>Fd toggle-distraction-free-mode"
 nnoremap <leader>Fd    :action ToggleDistractionFreeMode<CR>
 vnoremap <leader>Fd    :action ToggleDistractionFreeMode<CR>
+
+" Zen Mode
+let g:WhichKeyDesc_Frame_ToggleZenMode = "<leader>Fz toggle-zen-mode"
+nnoremap <leader>Fz    :action ToggleZenMode<CR>
+vnoremap <leader>Fz    :action ToggleZenMode<CR>
