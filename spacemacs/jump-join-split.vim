@@ -25,6 +25,10 @@ let g:WhichKeyDesc_JumpJoinSplit_JumpToLine = "<leader>jl jump-to-line"
 nnoremap <leader>jl    :action AceLineAction<CR>
 vnoremap <leader>jl    :action AceLineAction<CR>
 
+" Jump to methods
+let g:WhichKeyDesc_JumpJoinSplit_Method = "<leader>jm +methods"
+source ~/.intellimacs/spacemacs/methods.vim
+
 " Insert new line and move down
 let g:WhichKeyDesc_JumpJoinSplit_InsertNewlineAndMoveDown = "<leader>jn insert-newline-and-move-down"
 nnoremap <leader>jn    i<CR><Esc>
