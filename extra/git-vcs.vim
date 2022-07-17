@@ -8,6 +8,10 @@ let g:WhichKeyDesc_GitVcs_ShowWindow = "<leader>gG show-window"
 nnoremap <leader>gG    :action ActivateVersionControlToolWindow<CR>
 vnoremap <leader>gG    :action ActivateVersionControlToolWindow<CR>
 
+" GitHub actions
+let g:WhichKeyDesc_GitVcs_GitHub = "<leader>gH +github"
+source ~/.intellimacs/extra/github.vim
+
 " Select a VCS operation
 let g:WhichKeyDesc_GitVcs_SelectOperation = "<leader>gg select-operation"
 nnoremap <leader>gg    :action Vcs.QuickListPopupAction<CR>
