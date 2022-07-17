@@ -13,6 +13,11 @@ let g:WhichKeyDesc_Major_Goto_TypeDeclaration = "<leader>mgt type-declaration"
 nnoremap <leader>mgt    :action GotoTypeDeclaration<CR>
 vnoremap <leader>mgt    <Esc>:action GotoTypeDeclaration<CR>
 
+" Go to type declaration
+let g:WhichKeyDesc_Major_Goto_Test = "<leader>mgT test"
+nnoremap <leader>mgT    :action GotoTest<CR>
+vnoremap <leader>mgT    <Esc>:action GotoTest<CR>
+
 " Go to code block start
 let g:WhichKeyDesc_Major_Goto_CodeBlockStart = "<leader>mg[ code-block-start"
 nnoremap <leader>mg[    :action EditorCodeBlockStart<CR>
